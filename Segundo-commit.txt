@@ -1,0 +1,15 @@
+Comandos utilizados:
+pwd;
+mkdir curso-git;
+$ git init --initial-branch=main;
+$ git config user.name "Igor Barbosa";
+$ git config user.email "ferreira.igor@academico.ifrn.edu.br";
+$ git config --list --local;
+$ git status;
+$ git add Primeiro-commit.txt;
+$ git commit -m "Meu primeiro commit";
+$ git remote add origin-github https://github.com/Igor-FB/curso-git-embarcatech.git;
+$ git push -u origin-github main;
+$ git add Segundo-commit.txt;
+$ git commit -m "Meu segundo commit";
+$ git push -u origin-github main;
